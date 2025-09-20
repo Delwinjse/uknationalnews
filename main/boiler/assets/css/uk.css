@@ -1,0 +1,152 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #0b0c0c;
+  background: #fff;
+}
+
+a {
+  color: #1d70b8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.v-header {
+  background: #0b0c0c;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.v-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.v-logo {
+  font-size: 24px;
+  display: inline-block;
+}
+
+.v-nav {
+  float: right;
+}
+
+.v-menu,
+.v-search {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.v-bar {
+  background: #1d70b8;
+  height: 5px;
+  width: 100%;
+  clear: both;
+}
+
+.breadcrumb {
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.content-layout {
+  display: flex;
+  gap: 40px;
+}
+
+.main-content {
+  flex: 3;
+}
+
+.related-content {
+  flex: 1;
+  border-left: 3px solid #1d70b8;
+  padding-left: 20px;
+}
+
+.contents-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.contents-list li {
+  margin-bottom: 8px;
+  border-left: 2px solid #ccc;
+  padding-left: 8px;
+}
+
+.related-content ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.related-content li {
+  margin-bottom: 10px;
+}
+footer.disclaimer {
+  background-color: #f3f3f3;
+  padding: 30px 0;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+footer.disclaimer .disclaimer-content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+footer.disclaimer a {
+  color: #005ea5;
+  text-decoration: none;
+}
+
+footer.disclaimer a:hover {
+  text-decoration: underline;
+}
+  .cta-link {
+    font-size: 1.5em;         /* Makes text 50% larger */
+    font-weight: bold;        /* Makes sure it's bold */
+    text-decoration: none;    /* Removes underline if desired */
+  }
+
+  .cta-link:hover {
+    text-decoration: underline; /* Optional: adds underline on hover */
+  }
+  .cta-button {
+  display: inline-block;
+  background-color: #22723b; /* Green background (similar to screenshot) */
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  box-shadow: 0 2px 0 #0d4a22; /* Slight shadow like the screenshot */
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.cta-button:hover {
+  background-color: #1c5d32; /* Slightly darker green on hover */
+  transform: scale(1.02); /* Small hover grow effect */
+}
+
+.cta-button:active {
+  transform: scale(0.98); /* Pressed effect */
+}
+
+
