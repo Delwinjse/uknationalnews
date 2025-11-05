@@ -40,18 +40,60 @@
         .cta-buttons {
             margin-top: 30px;
         }
-.cta-button {
-    background-color: #4DEAC4;
-    text-decoration: none;
-    display: inline-block;
-    padding: 15px 30px;
-    font-size: 20px;
-    font-weight: bold;
-    margin: 10px;
-    cursor: pointer;
-    border-radius: 5px;
-    border: none;
-}
+        .cta-button {
+            background: linear-gradient(135deg, #4DEAC4 0%, #3DD4B0 100%);
+            text-decoration: none;
+            display: inline-block;
+            padding: 18px 45px;
+            font-size: 22px;
+            font-weight: bold;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 8px;
+            border: none;
+            color: #0F2F7B;
+            box-shadow: 0 6px 20px rgba(77, 234, 196, 0.4);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(77, 234, 196, 0.6);
+            background: linear-gradient(135deg, #5FFBD4 0%, #4DEAC4 100%);
+        }
+        
+        .cta-button:active {
+            transform: translateY(-1px);
+        }
+        
+        /* Subtle pulse animation */
+        @keyframes pulse {
+            0%, 100% {
+                box-shadow: 0 6px 20px rgba(77, 234, 196, 0.4);
+            }
+            50% {
+                box-shadow: 0 6px 30px rgba(77, 234, 196, 0.7);
+            }
+        }
+        
+        .cta-button {
+            animation: pulse 2s ease-in-out infinite;
+        }
+        
+        /* Arrow indicator */
+        .cta-button::after {
+            content: ' →';
+            font-size: 24px;
+            transition: transform 0.3s ease;
+            display: inline-block;
+        }
+        
+        .cta-button:hover::after {
+            transform: translateX(5px);
+        }
+        
         .benefits {
             margin-top: 50px;
             display: flex;
@@ -88,7 +130,7 @@
     window.clickmagick_cmc = {
         uid: '205495',
         hid: '2544215302',
-        cmc_project: 'UK Car Finance Claims',
+        cmc_project: 'PCP',
         cmc_ref: 'pre-sell',
         vid_info: 'on',
             	log_engage: '#click',
@@ -130,9 +172,9 @@ src="https://www.facebook.com/tr?id=1054513946564434&ev=PageView&noscript=1"
         <img src="assets/img/claims-logo.png" alt="Logo" class="logo">
     </div>
     <div class="container" style="background-color: #234CBD;">
-        <div class="headline">Final Call: 60-Second Check Could Pocket You Up To £3,231.76</div>
+        <div class="headline">Final Call: 60-Second Check Could Pocket You Hundred Of Pounds.</div>
                 <div class="subtext">In November 2024, A UK driver claimed over £3,000 from his car finance company after finding out he was overcharged. Could you claim too?</div>
-                        <div class="subtext">If you've had a a car on finance before 2021, you may qualify.</div>
+                        <div class="subtext">If you've had a a car on finance between 2007 and 2021, you may qualify.</div>
 
 
         <div class="benefits">
@@ -150,7 +192,8 @@ src="https://www.facebook.com/tr?id=1054513946564434&ev=PageView&noscript=1"
         <div class="cta-buttons">
             <div class="subtext">Simply enter your details to get started</div>
             <br></br>
-    <a href="https://pcp-checker.co.uk/intro2?utm_source=monitise&affid=pivotal-mtse&transaction_id=123456789&oid=offer-001&sub2=adgroup-xyz&s2=[cmc_vid]" id="click" class="cta-button">Check Now!</a>
+    <a href="https://mm2.r2r-online.co.uk/?s2=[cmc_vid]" id="click" class="cta-button">Check Your Eligibility Free</a>
+    <p style="font-size: 14px; color: #FF6B6B; margin-top: 10px; font-weight: bold;">⏱️ Check takes 60 seconds | No credit card details needed</p>
     <p style="font-size: 14px; color: #FFFFF; margin-top: 5px;">150,000+ Claims in progress.</p>
 
         </div>
@@ -170,7 +213,7 @@ src="https://www.facebook.com/tr?id=1054513946564434&ev=PageView&noscript=1"
 
 <p class="small">The content of this website does not constitute financial or legal advice and is provided for general information purposes only. We take care to make sure that the information and material appearing on this website is accurate and up-to-date but know errors and omissions may occur and you should not take the accuracy of the information and material for granted or rely upon it as a statement or representation of fact.</p>
 <p class="small">*£3,231.76 is the damage award made to Mr Johnson in the landmark ruling at the Court of Appeal as of the 08/11/2024 - Please note that this figure is not guaranteed; individual claims vary depending on unique circumstances and the specifics of each case.</p>
-<p class="small">Fountain Finances is a claims management company (CMC). You can claim for free, without using a CMC, first to your lender or to the FOS. We will be paid a fee by our partner law firm for referring your case to them as part of an ongoing marketing agreement.</p>
+<p class="small">*Right 2 Redress Limited is a claims management company authorised and regulated by the FCA (FRN:934965). We charge a fee of 18-36% (inc. VAR) of your compensation. Using our service does not guarantee a faster or better outcome. You can claim for free directly through your finance provider or the Financial Ombudsman Service.</p>
 
 				
 <p class="small"><a href="https://uknationalnews.com/privacy-policy">Privacy Policy</a> | <a href="https://uknationalnews.com/terms-and-conditions">Terms & Conditions</a></p>
